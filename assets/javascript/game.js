@@ -32,10 +32,14 @@ var crystal = {
   var lossCount = 0;
 
   // FUNCTIONS
-  // =================================================================
   
-  // Helper Function for getting random numbers
+  // Function for getting random numbers
   var getRandom = function(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   };
   
+  // Variable that will start the Game and restart it
+  var startGame = function() {
+  
+    // Reset the current Score
+    currentScore = 0;
