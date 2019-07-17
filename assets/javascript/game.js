@@ -64,6 +64,29 @@ var crystal = {
   
     // Check if currentScore is larger than targetScore
     if (currentScore > targetScore) {
-      alert("Sorry. You lost!");
-    }
+      alert("You lost!");
+
+ // Add to Loss Counter
+ lossCount++;
+ 
+ // Change Loss Count HTML
+ $("#loss-count").text(lossCount);
+  
+ // Restart the game
+ startGame();
+
 }
+
+    else if (currentScore === targetScore) {
+        alert("You Won!");
+
+        // Add to the Win Counter
+      winCount++;
+  
+      // Change Win Count HTML
+      $("#win-count").text(winCount);
+  
+      // Restart the game
+      startGame();
+    }
+  };
