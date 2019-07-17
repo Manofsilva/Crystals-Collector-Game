@@ -6,6 +6,8 @@ $(document).ready(function() {
     var yourMatchingNumber = 0;
 // Create a variable that will generate a random "target number".
  
+var randomNum = randomNumGen();
+
   // Variables needed to start the game.
 
 
