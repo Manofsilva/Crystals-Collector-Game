@@ -63,7 +63,7 @@ var crystal = {
 
   };
   
-  // Check if User Won or Lost and Reset the Game
+  // Check if user won or lost and reset the game
   var checkWin = function() {
   
     // Check if currentScore is larger than targetScore
@@ -73,7 +73,7 @@ var crystal = {
  // Add to Loss Counter
  lossCount++;
  
- // Change Loss Count HTML
+ // Change Losses HTML
  $("#loss-count").text(lossCount);
   
  // Restart the game
@@ -87,7 +87,7 @@ var crystal = {
         // Add to the Win Counter
       winCount++;
   
-      // Change Win Count HTML
+      // Change Win count HTML
       $("#win-count").text(winCount);
   
       // Restart the game
@@ -102,10 +102,10 @@ var crystal = {
     // Change currentScore
     currentScore += clickedCrystal.value;
   
-    // Change the HTML to reflect changes in currentScore
+    // Change the HTML for currentScore
     $("#your-score").text(currentScore);
   
-    // Call the checkWin Function
+    // Call function to see if user won
     checkWin();
   
   };
