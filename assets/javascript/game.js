@@ -43,3 +43,12 @@ var crystal = {
   
     // Reset the current Score
     currentScore = 0;
+    
+    // Creating a new Target Score (between 15 and 100)
+    targetScore = getRandom(21, 100);
+  
+    // Make different values for each of the crystals (between 1 and 13)
+    crystal.blue.value = getRandom(1, 13);
+    crystal.red.value = getRandom(1, 13);
+    crystal.green.value = getRandom(1, 13);
+    crystal.yellow.value = getRandom(1, 13);
