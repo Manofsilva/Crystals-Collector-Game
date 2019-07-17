@@ -52,3 +52,8 @@ var crystal = {
     crystal.red.value = getRandom(1, 13);
     crystal.green.value = getRandom(1, 13);
     crystal.yellow.value = getRandom(1, 13);
+
+     // Change the HTML to reflect all of these changes
+     $("#your-score").text(currentScore);
+     $("#target-score").text(targetScore);
+  };
