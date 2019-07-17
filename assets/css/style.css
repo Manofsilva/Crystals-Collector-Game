@@ -4,35 +4,11 @@ body {
 }
 
 #title {
-    width: 250px;
-    padding: 4px;
-    margin-bottom: 10px;
-    color: white;
-    background-color: chocolate;
-}
-
-#screen {
-    overflow: auto;
-}
-
-#screen div {
-    float: left;
-}
-
-#title {
-    width: 250px;
-    padding: 4px;
-    margin-bottom: 10px;
     color: white;
     background-color: lightcoral;
   }
 
-  #rules-area {
-    width: 400px;
-    height: 400px;
-    padding: 4px;
-    margin-bottom: 10px;
-    color: green;
+  #Instructions {
     background-color: lavender;
   }
   
