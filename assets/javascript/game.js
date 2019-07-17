@@ -20,8 +20,37 @@ var randomNum = randomNumGen();
 function randomNumCrystals() {
 
 
-// Crystals object.
- 
-}
+// Create the crystals object.
 
-);
+return {
+    red: {
+            
+    points: Math.floor(Math.random() * 12) + 1,
+            
+    imageUrl: "../../images/RedCrystal.jpeg"
+          
+    },
+    blue: {
+        
+        points: Math.floor(Math.random() * 12) + 1,
+                
+        imageUrl: "assets/images/blue.png"
+              
+        },
+              
+        yellow: {
+                
+        points: Math.floor(Math.random() * 12) + 1,
+                
+        imageUrl: "assets/images/yellow.png"
+              
+        },
+              
+        green: {
+                
+        points: Math.floor(Math.random() * 12) + 1,
+                
+        imageUrl: "assets/images/green.png"
+         
+    }
+};
