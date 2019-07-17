@@ -12,6 +12,8 @@ $(document).ready(function() {
 // Create a function that will generate a random value for the crystals and returns our crystals object.
   
 
+// Crystals object.
+ 
 }
 
 );
