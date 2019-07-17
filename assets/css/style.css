@@ -44,3 +44,21 @@ body {
     color: purple;
     background-color: rgb(119, 241, 174);
   }
+
+#score-area {
+    width: 210px;
+    height: 100px;
+    padding: 4px;
+    color: ghostwhite;
+    background-color: darkcyan;
+  }
+
+  #score-title {
+    width: 210px;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: darkcyan;
+  }
+  
+  
