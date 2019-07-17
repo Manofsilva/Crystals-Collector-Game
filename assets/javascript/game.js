@@ -16,7 +16,9 @@ var randomNum = randomNumGen();
   
    
 // Create a function that will generate a random value for the crystals and returns our crystals object.
-  
+
+function randomNumCrystals() {
+
 
 // Crystals object.
  
