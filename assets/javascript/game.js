@@ -9,7 +9,7 @@ $(document).ready(function() {
   // Variables needed to start the game.
 
 
-// Create a function that will generate a random value for the crystals 
+// Create a function that will generate a random value for the crystals and returns our crystals object.
   
 
 }
