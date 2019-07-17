@@ -10,7 +10,11 @@ var randomNum = randomNumGen();
 
   // Variables needed to start the game.
 
-
+  var wins = 0;
+  var losses = 0;
+  var crystals;
+  
+   
 // Create a function that will generate a random value for the crystals and returns our crystals object.
   
 
