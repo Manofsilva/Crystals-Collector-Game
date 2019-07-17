@@ -64,7 +64,7 @@ body {
   .crystals-button {
     display: inline;
   }
-  
+
   .crystal-img {
     width: 80px;
     height: 80px;
@@ -72,5 +72,17 @@ body {
     background-color: white;
     border: solid;
     border-color: lightblue;
+  }
+  
+#score-number {
+  font-size: 3vw;
+}
+
+#win-area {
+    height: 100px;
+    padding: 4px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: aqua;
   }
   
