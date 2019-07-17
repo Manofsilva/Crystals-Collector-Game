@@ -24,7 +24,7 @@
     <div class="container">
         <!-- Crystal Collector Jumbotron -->
 
-        <div class="jumbotron" style="background-color: purple; color: white;">
+        <div class="jumbotron" style="background-color: lightcoral; color: white;">
 
             <div class="container">
 
@@ -53,18 +53,18 @@
 
                     </div>
 
-                    <div class="card-body">
+                    <div class="card-body" id="Instructions">
 
                         <p>
 
-                            <small>You will be given a random number at the start of the game. There are four crystals
-                                below.
-                                By clicking on a crystal you will add a specific amount of points to your total score.
-                                You win the game by matching your total score to random number, you lose the game if
-                                your total score goes above the random number. The value of each crystal is hidden from
-                                you until you click on it. Each time when the game starts, the game will change the
-                                values
-                                of each crystal</small>
+                            <small>
+                                <ul>
+                                    <li> will be given a random number at the start of the game. There are four crystals below.</li>
+                                <li>By clicking on a crystal you will add a specific amount of points to your total score. </li>
+                                <li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. </li>
+                                <li>The value of each crystal is hidden from you until you click on it. </li>
+                                <li>Each time when the game starts, the game will change the values of each crystal</li>
+                                </ul></small>
 
                         </p>
 
@@ -93,7 +93,7 @@
 
                     </div>
 
-                    <div class="card-body">
+                    <div class="card-body" id="Target">
 
                         <h3 class="text-center" id="target-score"></h3>
 
@@ -116,7 +116,7 @@
 
                     </div>
 
-                    <div class="card-body">
+                    <div class="card-body" id="Score">
 
                         <h3 class="text-center" id="your-score"></h3>
 
@@ -144,13 +144,13 @@
 
                     <div class="card-body text-center">
 
-                        <img src="images/blue.png" id="blue">
+                        <img src="../Crystals-Collector-Game/assets/images/Blue Crystal.jpg" id="blue">
 
-                        <img src="images/green.png" id="green">
+                        <img src="../Crystals-Collector-Game/assets/images/Green Crystal.jpg" id="green">
 
-                        <img src="images/red.png" id="red">
+                        <img src="../Crystals-Collector-Game/assets/images/Red Crystal.jpg" id="red">
 
-                        <img src="images/yellow.png" id="yellow">
+                        <img src="../Crystals-Collector-Game/assets/images/Yellow Crystal.jpg" id="yellow">
 
                     </div>
 
@@ -180,7 +180,7 @@
 
                     </div>
 
-                    <div class="card-body">
+                    <div class="card-body" id="Wins">
 
                         <h3 class="text-center" id="win-count">0</h3>
 
@@ -203,7 +203,7 @@
 
                     </div>
 
-                    <div class="card-body">
+                    <div class="card-body" id="Losses">
 
                         <h3 class="text-center" id="loss-count">0</h3>
 
@@ -219,13 +219,11 @@
 
     <!-- JQuery -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+    <!-- Link to the Javascript file -->
 
-
-    <!-- Main Game Logic  -->
-
-    <script src="game.js"></script>
+    <script src="assets/javascript/game.js"></script>
 
 </body>
 
