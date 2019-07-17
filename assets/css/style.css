@@ -1,6 +1,6 @@
 body {
-    background-image: url("../images/Crystals\ Background.jpg");
-    background-repeat: repeat;
+    background-image: url("../../assets/images/Crystals\ Background.jpg");
+    background-repeat: no-repeat;
 }
 
 #title {
@@ -18,3 +18,29 @@ body {
 #screen div {
     float: left;
 }
+
+#title {
+    width: 250px;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: lightcoral;
+  }
+
+  #rules-area {
+    width: 400px;
+    height: 400px;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: green;
+    background-color: lavender;
+  }
+  
+  #random-area {
+    width: 200px;
+    height: 100px;
+    padding: 4px;
+    font-size: 3vw;
+    color: purple;
+    background-color: rgb(119, 241, 174);
+  }
