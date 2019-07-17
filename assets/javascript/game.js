@@ -5,21 +5,25 @@ var crystal = {
     {
       name: "Blue",
       value: 0
+      imageUrl:"../Crystals-Collector-Game/assets/images/Blue Crystal.jpg"
     },
     green:
     {
       name: "Green",
       value: 0
+      imageUrl: "../Crystals-Collector-Game/assets/images/Green Crystal.jpg"
     },
     red:
     {
       name: "Red",
       value: 0
+      imageUrl:"../Crystals-Collector-Game/assets/images/Red Crystal.jpg"
     },
     yellow:
     {
       name: "Yellow",
       value: 0
+      imageUrl: "../Crystals-Collector-Game/assets/images/Yellow Crystal.jpg"
     }
   };
   
@@ -44,14 +48,14 @@ var crystal = {
     // Reset the current Score
     currentScore = 0;
     
-    // Creating a new Target Score (between 20 and 100)
-    targetScore = getRandom(20, 100);
+    // Creating a new Target Score (between 19 and 120)
+    targetScore = getRandom(19, 120);
   
     // Make different values for each of the crystals (between 1 and 13)
-    crystal.blue.value = getRandom(1, 13);
-    crystal.red.value = getRandom(1, 13);
-    crystal.green.value = getRandom(1, 13);
-    crystal.yellow.value = getRandom(1, 13);
+    crystal.blue.value = getRandom(1, 12);
+    crystal.red.value = getRandom(1, 12);
+    crystal.green.value = getRandom(1, 12);
+    crystal.yellow.value = getRandom(1, 12);
 
      // Change the HTML to reflect all of these changes
      $("#your-score").text(currentScore);
@@ -90,3 +94,37 @@ var crystal = {
       startGame();
     }
   };
+
+  
+  // Respond to clicks on the crystals
+  var addValues = function(clickedCrystal) {
+  
+    // Change currentScore
+    currentScore += clickedCrystal.value;
+  
+    // Change the HTML to reflect changes in currentScore
+    $("#your-score").text(currentScore);
+  
+    // Call the checkWin Function
+    checkWin();
+  
+  };
+
+    // On.clicks for crystals
+    startGame();
+  
+    $("#blue").click(function() {
+      addValues(crystal.blue);
+    });
+    
+    $("#red").click(function() {
+      addValues(crystal.red);
+    });
+    
+    $("#green").click(function() {
+      addValues(crystal.green);
+    });
+    
+    $("#yellow").click(function() {
+      addValues(crystal.yellow);
+    });
