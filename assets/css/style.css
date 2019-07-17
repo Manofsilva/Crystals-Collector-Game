@@ -27,3 +27,22 @@ body {
 #Losses {
     background-color: rgb(248, 250, 117);
 }
+
+/* crystals */
+
+#blue {
+    width: 20%;
+    height: 20%;
+}
+#green {
+    width: 20%;
+    height: 20%;
+}
+#red {
+    width: 20%;
+    height: 20%;
+}
+#yellow {
+    width: 20%;
+    height: 20%;
+}
