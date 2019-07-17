@@ -44,8 +44,8 @@ var crystal = {
     // Reset the current Score
     currentScore = 0;
     
-    // Creating a new Target Score (between 15 and 100)
-    targetScore = getRandom(21, 100);
+    // Creating a new Target Score (between 20 and 100)
+    targetScore = getRandom(20, 100);
   
     // Make different values for each of the crystals (between 1 and 13)
     crystal.blue.value = getRandom(1, 13);
@@ -56,4 +56,14 @@ var crystal = {
      // Change the HTML to reflect all of these changes
      $("#your-score").text(currentScore);
      $("#target-score").text(targetScore);
+
   };
+  
+  // Check if User Won or Lost and Reset the Game
+  var checkWin = function() {
+  
+    // Check if currentScore is larger than targetScore
+    if (currentScore > targetScore) {
+      alert("Sorry. You lost!");
+    }
+}
