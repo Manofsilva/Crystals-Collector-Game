@@ -4,25 +4,25 @@ var crystal = {
     blue:
     {
       name: "Blue",
-      value: 0
+      value: 0,
       imageUrl:"../Crystals-Collector-Game/assets/images/Blue Crystal.jpg"
     },
     green:
     {
       name: "Green",
-      value: 0
+      value: 0,
       imageUrl: "../Crystals-Collector-Game/assets/images/Green Crystal.jpg"
     },
     red:
     {
       name: "Red",
-      value: 0
+      value: 0,
       imageUrl:"../Crystals-Collector-Game/assets/images/Red Crystal.jpg"
     },
     yellow:
     {
       name: "Yellow",
-      value: 0
+      value: 0,
       imageUrl: "../Crystals-Collector-Game/assets/images/Yellow Crystal.jpg"
     }
   };
