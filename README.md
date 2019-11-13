@@ -1,7 +1,7 @@
 # Crystals-Collector-Game
 
 I created a fun and interactive game for web browsers. My app dynamically updates HTML pages with the jQuery library.
-Here's how the app works:
+
 
 # How the game is played:
 
